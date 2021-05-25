@@ -1,0 +1,47 @@
+.header-container
+{
+    font-family: "HelveticaPro";
+    padding: 1.5rem;
+
+    
+}
+
+
+
+
+
+/* HEADER NAME / LINK */
+
+.name
+{
+    color: white;
+}
+
+.profession
+{
+    color: grey;
+}
+
+.header-link
+{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: .7rem;
+    font-weight: 600;
+
+    letter-spacing: .02rem;
+}
+
+.header-link a
+{
+    color: white;
+
+    text-decoration: none;
+}
+
+.header-link a:hover
+{
+    color: grey;
+
+    text-decoration: none;
+}
