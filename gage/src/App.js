@@ -5,17 +5,16 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // PAGES
 import Header from './components/pages/header';
 import Home from './components/pages/home';
-import Background from './components/pages/background';
+import Work from './components/pages/work';
 
 function App() {
   return (
     <>
       <Router>
-        <Background />
         <Header />
         <Switch>
-          <Route to='/' exact component={Home}>
-          </Route>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/work' component={Work} />
         </Switch>
       </Router>
     </>

@@ -1,9 +1,14 @@
 .header-container
 {
     font-family: "HelveticaPro";
-    padding: 1.5rem;
+    padding-top: 1.5rem;
 
-    
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    background: transparent;
+
+    position: absolute;
 }
 
 
@@ -20,6 +25,23 @@
 .profession
 {
     color: grey;
+}
+
+.header-list
+{
+    padding: 0;
+
+    float: right;
+}
+
+.header-list li 
+{
+    list-style-type: none;
+
+    display: inline-block;
+
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .header-link
@@ -44,4 +66,41 @@
     color: grey;
 
     text-decoration: none;
+}
+
+
+
+
+
+
+/* SOCIAL */
+
+.header-social-list
+{
+    padding: 0;
+
+    display: inline-block;
+}
+
+.header-social-list li 
+{
+    list-style-type: none;
+
+    display: inline-block;
+
+    margin-left: 1rem;
+    margin-right: .25rem;
+}
+
+.header-social svg
+{
+    width: 1rem;
+    height: 1rem;
+
+    fill: white;
+}
+
+.header-social svg:hover 
+{
+    fill: grey;
 }

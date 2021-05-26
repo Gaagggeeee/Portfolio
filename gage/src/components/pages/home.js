@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
+// STYLES
+import '../styles/home.css';
+
 function Home() {
     return (
         <>
@@ -8,12 +11,12 @@ function Home() {
                 <div>
                     <div>
                         <Row>
-                            <Col xs='4'>
+                            <Col xs='2'>
 
                             </Col>
-                            <Col xs='8'>
+                            <Col xs='10'>
                                 <div className=''>
-
+                                    
                                 </div>
                             </Col>
                         </Row>
