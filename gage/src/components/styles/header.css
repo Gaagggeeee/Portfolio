@@ -2,13 +2,9 @@
 {
     font-family: "HelveticaPro";
     padding-top: 1.5rem;
-
     padding-left: 3rem;
     padding-right: 3rem;
 
-    background: transparent;
-
-    position: absolute;
 }
 
 
@@ -24,7 +20,7 @@
 
 .profession
 {
-    color: grey;
+    color: #b8c6db;
 }
 
 .header-list
@@ -63,7 +59,7 @@
 
 .header-link a:hover
 {
-    color: grey;
+    color: #b8c6db;
 
     text-decoration: none;
 }
@@ -102,5 +98,5 @@
 
 .header-social svg:hover 
 {
-    fill: grey;
+    fill: #b8c6db;
 }

@@ -8,15 +8,12 @@ function Home() {
     return (
         <>
             <Container className='home-container' fluid={true}>
-                <div>
-                    <div>
+                <div className='home-intro-wrapper'>
+                    <div className='home-intro-container'>
                         <Row>
-                            <Col xs='2'>
-
-                            </Col>
-                            <Col xs='10'>
-                                <div className=''>
-                                    
+                            <Col>
+                                <div className='home-intro-box'>
+                                    <p>Hi</p>
                                 </div>
                             </Col>
                         </Row>

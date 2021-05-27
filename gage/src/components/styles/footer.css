@@ -1,0 +1,19 @@
+/* CONTAINER */
+
+.footer-container
+{
+    font-family: 'Montserrat', sans-serif;
+
+    background: transparent;
+
+    margin-top: 3rem;
+}
+
+.footer-box
+{
+    text-align: center;
+
+    font-size: .85rem;
+
+    color: white;
+}
