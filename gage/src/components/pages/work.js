@@ -14,7 +14,7 @@ function Work() {
                         <Row>
                             <Col>
                                 <div className='work-title-box'>
-                                    <p>ARCHIVE</p>
+                                    <p>Archive</p>
                                     <p className='work-title-info'>A list of projects I've worked on</p>
                                 </div>
                             </Col>
