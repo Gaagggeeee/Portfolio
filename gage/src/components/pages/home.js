@@ -22,7 +22,8 @@ function Home() {
                                         </p>
                                         <p className='home-intro-info'>
                                             My name is Gage Everett I'm a Full Stack Developer located in El 
-                                            Paso, TX I build websites
+                                            Paso, TX I build impressive and design websites, intriguing applications
+                                            
                                         </p>
                                     </div>
                                 </Col>
@@ -38,14 +39,16 @@ function Home() {
                                 <Col>
                                     <div className='home-project-title-box'>
                                         <p className='home-project-title'>Projects</p>
-                                        <p className='home-project-info'>Noteworthy projects</p>
+                                        <p className='home-project-info'>Selected projects</p>
                                     </div>
                                 </Col>
                             </Row>
                         {/* ARCHIVED */}
                         <Row>
                             <Col>
-                                
+                                <div className='home-selected-projects'>
+
+                                </div>
                             </Col>
                         </Row>
                         {/* ARCHIVED */}
@@ -244,25 +247,29 @@ function Home() {
                     </div>
                 </Fade>
                 {/* ABOUT */} 
-                <div className='home-about-wrapper'>
-                    <div className='home-about-container'>
-                        <Row>
-                            <Col>
+                <Fade>
+                    <div className='home-about-wrapper'>
+                        <div className='home-about-container'>
+                            <Row>
+                                <Col>
 
-                            </Col>
-                        </Row>
+                                </Col>
+                            </Row>
+                        </div>
                     </div>
-                </div>
+                </Fade>
                 {/* CONTACT */}
-                <div className='home-contact-wrapper'>
-                    <div className='home-contact-container'>
-                        <Row>
-                            <Col>
-                            
-                            </Col>
-                        </Row>
+                <Fade>
+                    <div className='home-contact-wrapper'>
+                        <div className='home-contact-container'>
+                            <Row>
+                                <Col>
+                                
+                                </Col>
+                            </Row>
+                        </div>
                     </div>
-                </div>
+                </Fade>
             </Container> 
         </>
     )

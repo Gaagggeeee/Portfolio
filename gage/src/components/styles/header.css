@@ -1,6 +1,6 @@
 .header-container
 {
-    font-family: "HelveticaPro";
+    font-family: 'Montserrat', sans-serif;
     padding-top: 1.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -68,35 +68,3 @@
 
 
 
-
-/* SOCIAL */
-
-.header-social-list
-{
-    padding: 0;
-
-    display: inline-block;
-}
-
-.header-social-list li 
-{
-    list-style-type: none;
-
-    display: inline-block;
-
-    margin-left: 1rem;
-    margin-right: .25rem;
-}
-
-.header-social svg
-{
-    width: 1rem;
-    height: 1rem;
-
-    fill: white;
-}
-
-.header-social svg:hover 
-{
-    fill: #b8c6db;
-}

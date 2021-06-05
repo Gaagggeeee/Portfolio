@@ -1,5 +1,103 @@
 .app
 {
+  font-family: 'Montserrat', sans-serif;
+
   background: rgb(38,43,46);
-    background: linear-gradient(132deg, rgba(38,43,46,1) 0%, rgba(0,0,0,1) 85%);
+  background: linear-gradient(132deg, rgba(38,43,46,1) 0%, rgba(0,0,0,1) 85%);
+}
+
+.left-social-container
+{
+  position: fixed;
+
+  top: 65%;
+}
+
+.right-social-container
+{
+  color: #b8c6db;
+
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .08rem;
+
+  position: fixed;
+  top: 75%;
+  right: -3.5rem;
+}
+
+.right-email
+{
+  transform: rotate(90deg);
+}
+
+.right-email a
+{
+  text-decoration: none;
+
+  color: white;
+}
+
+.right-email a:hover 
+{
+  color: #b8c6db;
+} 
+
+.right-email-box::after
+{
+  background-color: grey;
+
+  margin-left: 5.9rem;
+  margin-top: 5.8rem;
+
+  content: " ";
+  width: 1px;
+  height: 120px;
+  display: block;
+}
+
+
+/* SOCIAL */
+
+.header-social-list 
+{
+    padding: 0;
+
+    display: inline-block;
+}
+
+.header-social-list::after
+{
+  background-color: grey;
+
+  margin-left: 2.2rem;
+
+  content: " ";
+  width: 1px;
+  height: 120px;
+  display: block;
+}
+
+.header-social-list li 
+{
+    list-style-type: none;
+
+
+    margin-left: 1.65rem;
+    margin-right: .25rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.header-social svg
+{
+    width: 1.2rem;
+    height: 1.2rem;
+
+    fill: white;
+}
+
+.header-social svg:hover 
+{
+    fill: #b8c6db;
 }
