@@ -46,8 +46,9 @@
 
     font-size: .7rem;
     font-weight: 600;
+    text-transform: uppercase;
 
-    letter-spacing: .02rem;
+    letter-spacing: .05rem;
 }
 
 .header-link a

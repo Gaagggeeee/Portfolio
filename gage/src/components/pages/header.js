@@ -26,14 +26,7 @@ function Header() {
                                         <li>
                                             <div className='header-link'>
                                                 <Link to='/projects'>
-                                                    Projects
-                                                </Link>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className='header-link'>
-                                                <Link to='/about'>
-                                                    About
+                                                    Work
                                                 </Link>
                                             </div>
                                         </li>
@@ -41,13 +34,6 @@ function Header() {
                                             <div className='header-link'>
                                                 <Link to='/contact'>
                                                     Contact
-                                                </Link>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className='header-link'>
-                                                <Link to='/resume'>
-                                                    Resume
                                                 </Link>
                                             </div>
                                         </li>

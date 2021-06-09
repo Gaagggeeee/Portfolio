@@ -45,7 +45,7 @@
 {
     font-size: 1rem;
     letter-spacing: .05rem;
-    font-weight: 700;
+    font-weight: 600;
 
     color: #b8c6db;
 }
@@ -127,7 +127,7 @@
 
 .table-company 
 {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .frameworks
