@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
+import AOS from "aos";
 
 // STYLES
 import '../styles/home.css';
@@ -10,15 +11,22 @@ import '../styles/home.scss';
 import unwind from '../../images/unwind.png';
 import unwindmattress from '../../images/unwindmattress.png';
 import unwinddesk from '../../images/unwinddesk.png';
+import unwindpillow from '../../images/unwindpillow.png';
+
+// VIDEOS 
+import unwindlink from '../../videos/unwindlink.webm';
 
 function Home() {
 
-    
+    useEffect(() => {
+        AOS.init({
+          duration : 1000
+        });
+      }, []);
 
 
     return (
         <>
-            
                 <Container className='home-container' fluid={true}>
                     {/* INTRO */}
                     <Fade>
@@ -32,7 +40,7 @@ function Home() {
                                                 A Full Stack Developer <br />
                                                 based in El Paso, Tx. <br />
                                             </p>
-                                            <p className='home-intro-title-two'>
+                                            <p className='home-intro-title'>
                                                 Currently working at <br />
                                                 DGTL MLK designing <br />
                                                 unforgettable sites.
@@ -49,7 +57,7 @@ function Home() {
                             <div className='project-section-one'>
                                 <Row>
                                     <Col lg='8'>
-                                        <div className='home-project-box'>
+                                        <div data-aos="fade-down" className='home-project-box'>
                                             <p className='home-project-title'>
                                                 Unwind Sleep
                                             </p>
@@ -61,7 +69,7 @@ function Home() {
                                         </div>
                                     </Col>
                                     <Col lg='4'>
-                                        <div className='home-project-box'>
+                                        <div data-aos="fade-down" className='home-project-box'>
                                             <div className='home-project-date'>
                                                 <p className='home-project-date-title'>
                                                     Date
@@ -97,19 +105,18 @@ function Home() {
                             <div className='project-section-img'>
                                 <img src={unwind} />
                             </div>
+                            {/* DESIGN */}
                             <div className='project-section-one'>
                                 <Row>
                                     <Col lg='4'>
-                                        <div className='home-project-box'>
+                                        <div data-aos="fade-down" className='home-project-box'>
                                             <p className='project-design'>
                                                 Design
                                             </p>
                                             <p className='project-design-info'>
-                                                The design choice was straight forward, make it appealing to the eye 
-                                                and let the product do the talking. Displaying all the pictures at once
-                                                rather than having the user go through a carousel, short informative text 
-                                                to describe the features, and finally make the site fast and snappy. 
-                                                All thought out to get the customer in and out with their new mattress. 
+                                                The design choice was straight forward, make it appealing
+                                                to the eye and let the product do the talking. All thought 
+                                                out to get the customer in and out with their new mattress. 
                                             </p>
                                         </div>
                                     </Col>
@@ -117,17 +124,26 @@ function Home() {
                                     
                                     </Col>
                                 </Row>
-                                <div className='product-design-img-box'>
+                                <div className='project-design-img-box'>
                                     <Row>
                                         <Col lg='5'>
-                                        
+                                            <div data-aos="fade-down" className='project-design-img-extra'>
+                                                <img src={unwindpillow} />
+                                            </div>
                                         </Col>
                                         <Col lg='7'>
-                                            <div className='product-design-img'>
+                                            <div data-aos="fade-down" className='project-design-img'>
                                                 <img src={unwindmattress} />
                                             </div>
-                                            <div className='product-design-img-two'>
+                                            <div data-aos="fade-down" className='project-design-img-two'>
                                                 <img src={unwinddesk} />
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col>
+                                            <div className='project-design-video-box'>
+                                                
                                             </div>
                                         </Col>
                                     </Row>
@@ -136,7 +152,7 @@ function Home() {
                             <div className='project-section-one'>
                                 <Row>
                                     <Col lg='8'>
-                                    
+
                                     </Col>
                                     <Col lg='4'>
                                         <div className='home-project-box'>
@@ -144,9 +160,8 @@ function Home() {
                                                 Frameworks
                                             </p>
                                             <p className='project-framework-info'>
-                                                Using React paired up with Node was a no brainer when retrieving 
-                                                products with variants. Allowing for more time to be dedicated to
-                                                creating a lighting quick site with React Router. 
+                                                Using React with Node was a no brainer when dealing
+                                                variants of products.  
                                             </p>
                                         </div>
                                     </Col>
@@ -179,7 +194,6 @@ function Home() {
                         </Fade>
                     </div>
                 </Container> 
-            
         </>
     )
 }

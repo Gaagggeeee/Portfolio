@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // PAGES
@@ -14,9 +13,9 @@ function App() {
   const [bgOne, setBgOne] = useState("bgOne")
 
     const listenScrollEvent = (event) => {
-    if (window.scrollY < 800) {
+    if (window.scrollY < 750) {
         return setBgOne("bgOne")
-    } else if (window.scrollY > 800) {
+    } else if (window.scrollY > 750) {
         return setBgOne("bgTwo")
     } 
     }

@@ -115,3 +115,24 @@
 {
     
 }
+
+
+
+
+
+/* MEDIA */
+
+@media only screen and (max-width: 992px)
+{
+  .left-social-container
+  {
+    display: none;
+  }
+
+  .right-social-container
+  {
+    display: none;
+  }
+
+  
+}
