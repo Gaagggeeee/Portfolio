@@ -18,3 +18,10 @@ code {
     url("./fonts/HelveticaNeueLTPro-Cn.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Larrseit";
+  src: local("Larrseit"),
+    url("./fonts/Larsseit.ttf") format("truetype");
+  font-weight: normal;
+}

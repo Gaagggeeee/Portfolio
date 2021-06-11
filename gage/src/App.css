@@ -2,8 +2,7 @@
 {
   font-family: 'Montserrat', sans-serif;
 
-  background: rgb(38,43,46);
-  background: linear-gradient(132deg, rgba(38,43,46,1) 0%, rgba(0,0,0,1) 85%);
+  
 }
 
 .left-social-container
@@ -11,6 +10,8 @@
   position: fixed;
 
   top: 65%;
+
+  z-index: 5;
 }
 
 .right-social-container
@@ -24,6 +25,8 @@
   position: fixed;
   top: 75%;
   right: -3.5rem;
+
+  z-index: 5;
 }
 
 .right-email
@@ -94,10 +97,21 @@
     width: 1.2rem;
     height: 1.2rem;
 
-    fill: white;
+    fill: black;
 }
 
 .header-social svg:hover 
 {
     fill: #b8c6db;
+}
+
+.bgOne
+{
+    background: linear-gradient(132deg, rgba(38,43,46,1) 0%, rgba(0,0,0,1) 85%);
+
+}
+
+.bgTwo
+{
+    
 }
