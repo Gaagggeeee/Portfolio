@@ -95,7 +95,9 @@
 
 .home-project-title-info
 {
-    width: 75%;
+    width: 60%;
+
+    color: rgb(70, 70, 70);
 }
 
 .home-project-lang-title, .home-project-date-title, .home-project-link-title
@@ -137,17 +139,23 @@
     width: 100%;
 }
 
-.project-design
+.project-design, .project-framework
 {
     font-size: .9rem;
     color: black;
     font-weight: 600;
 }
-.project-design-info
+
+
+
+.project-design-info, .project-framework-info
 {
     color: rgb(70, 70, 70);
+}
 
-    width: 35%;
+.product-design-img-box
+{
+    margin-top: 3rem;
 }
 
 .product-design-img
@@ -184,4 +192,19 @@
     border-radius: 5px;
 
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 992px)
+{
+    .project-section-one
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }

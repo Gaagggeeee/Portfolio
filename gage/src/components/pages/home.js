@@ -9,7 +9,7 @@ import '../styles/home.scss';
 // IMAGES 
 import unwind from '../../images/unwind.png';
 import unwindmattress from '../../images/unwindmattress.png';
-import unwindmattresstwo from '../../images/unwindmattresstwo.png';
+import unwinddesk from '../../images/unwinddesk.png';
 
 function Home() {
 
@@ -48,7 +48,7 @@ function Home() {
                         <Fade>
                             <div className='project-section-one'>
                                 <Row>
-                                    <Col md='8'>
+                                    <Col lg='8'>
                                         <div className='home-project-box'>
                                             <p className='home-project-title'>
                                                 Unwind Sleep
@@ -60,7 +60,7 @@ function Home() {
                                             </p>
                                         </div>
                                     </Col>
-                                    <Col md='4'>
+                                    <Col lg='4'>
                                         <div className='home-project-box'>
                                             <div className='home-project-date'>
                                                 <p className='home-project-date-title'>
@@ -99,7 +99,7 @@ function Home() {
                             </div>
                             <div className='project-section-one'>
                                 <Row>
-                                    <Col>
+                                    <Col lg='4'>
                                         <div className='home-project-box'>
                                             <p className='project-design'>
                                                 Design
@@ -113,17 +113,41 @@ function Home() {
                                             </p>
                                         </div>
                                     </Col>
-                                </Row>
-                                <Row>
-                                    <Col md='5'>
+                                    <Col lg='8'>
                                     
                                     </Col>
-                                    <Col md='7'>
-                                        <div className='product-design-img'>
-                                            <img src={unwindmattress} />
-                                        </div>
-                                        <div className='product-design-img-two'>
-                                            <img src={unwindmattresstwo} />
+                                </Row>
+                                <div className='product-design-img-box'>
+                                    <Row>
+                                        <Col lg='5'>
+                                        
+                                        </Col>
+                                        <Col lg='7'>
+                                            <div className='product-design-img'>
+                                                <img src={unwindmattress} />
+                                            </div>
+                                            <div className='product-design-img-two'>
+                                                <img src={unwinddesk} />
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </div>
+                            <div className='project-section-one'>
+                                <Row>
+                                    <Col lg='8'>
+                                    
+                                    </Col>
+                                    <Col lg='4'>
+                                        <div className='home-project-box'>
+                                            <p className='project-framework'>
+                                                Frameworks
+                                            </p>
+                                            <p className='project-framework-info'>
+                                                Using React paired up with Node was a no brainer when retrieving 
+                                                products with variants. Allowing for more time to be dedicated to
+                                                creating a lighting quick site with React Router. 
+                                            </p>
                                         </div>
                                     </Col>
                                 </Row>
