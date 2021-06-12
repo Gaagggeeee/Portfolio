@@ -20,7 +20,7 @@ function Home() {
 
     useEffect(() => {
         AOS.init({
-          duration : 1000
+          duration : 2000
         });
       }, []);
 
@@ -126,24 +126,59 @@ function Home() {
                                 </Row>
                                 <div className='project-design-img-box'>
                                     <Row>
-                                        <Col lg='5'>
+                                        <Col lg='4'>
                                             <div data-aos="fade-down" className='project-design-img-extra'>
                                                 <img src={unwindpillow} />
                                             </div>
                                         </Col>
-                                        <Col lg='7'>
+                                        <Col lg='4'>
+                                            <div data-aos="fade-down" className='home-project-box'>
+                                                <p className='project-design'>
+                                                    Design
+                                                </p>
+                                                <p className='project-design-info'>
+                                                    The design choice was straight forward, make it appealing
+                                                    to the eye and let the product do the talking. All thought 
+                                                    out to get the customer in and out with their new mattress. 
+                                                </p>
+                                            </div>
+                                        </Col>
+                                        <Col lg='2'>
+                                        
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col lg='4'>
+                                        
+                                        </Col>
+                                        <Col lg='4'>
                                             <div data-aos="fade-down" className='project-design-img'>
                                                 <img src={unwindmattress} />
                                             </div>
-                                            <div data-aos="fade-down" className='project-design-img-two'>
-                                                <img src={unwinddesk} />
+                                        </Col>
+                                        <Col lg='4'>
+                                            <div data-aos="fade-down" className='home-project-box'>
+                                                <p className='project-design'>
+                                                    Design
+                                                </p>
+                                                <p className='project-design-info'>
+                                                    The design choice was straight forward, make it appealing
+                                                    to the eye and let the product do the talking. All thought 
+                                                    out to get the customer in and out with their new mattress. 
+                                                </p>
                                             </div>
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col>
-                                            <div className='project-design-video-box'>
-                                                
+                                        <Col lg='4'>
+                                        
+                                        </Col>
+                                        <Col lg='4'>
+                                        
+                                        </Col>
+                                        <Col lg='4'>
+                                            <div data-aos="fade-down" className='project-design-img-two'>
+                                                <img src={unwinddesk} />
                                             </div>
                                         </Col>
                                     </Row>
