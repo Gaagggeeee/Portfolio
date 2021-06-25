@@ -1,6 +1,6 @@
 .header-container
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Larrseit', sans-serif;
     padding-top: 1.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -15,7 +15,7 @@
 
 .name
 {
-    color: white;
+    color: black;
 }
 
 .profession
@@ -42,7 +42,7 @@
 
 .header-link
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Larrseit', sans-serif;
 
     font-size: .7rem;
     font-weight: 600;
@@ -53,7 +53,7 @@
 
 .header-link a
 {
-    color: white;
+    color: black;
 
     text-decoration: none;
 }

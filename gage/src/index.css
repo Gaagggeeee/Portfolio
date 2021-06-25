@@ -25,3 +25,10 @@ code {
     url("./fonts/Larsseit.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Chillax";
+  src: local("Chillax"),
+    url("./fonts/Chillax.ttf") format("truetype");
+  font-weight: normal;
+}

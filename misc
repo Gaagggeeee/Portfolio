@@ -1,0 +1,60 @@
+<div data-aos="fade-down" className='home-project-box'>
+                                            <p className='home-project-title'>
+                                                Unwind Sleep
+                                            </p>
+                                            <p className='home-project-title-info'>
+                                                Mattress website built from React utilizing Shopify's Storefront 
+                                                API. Styled with CSS/SCSS and variant product retrieval with Node.
+
+                                            </p>
+                                        </div>
+                                    </Col>
+                                    <Col lg='4'>
+                                        <div data-aos="fade-down" className='home-project-box'>
+                                            <div className='home-project-date'>
+                                                <p className='home-project-date-title'>
+                                                    Date
+                                                </p>
+                                                <p className='home-project-date-info'>
+                                                    March - April 2021
+                                                </p>
+                                            </div>
+                                            <div className='home-project-lang'>
+                                                <p className='home-project-lang-title'>
+                                                    Languages
+                                                </p>
+                                                <p className='home-project-lang-info'>
+                                                    React <br />
+                                                    SCSS/CSS <br />
+                                                    Bootstrap <br />
+                                                    Node <br />
+                                                    React <br />
+                                                </p>
+                                            </div>
+                                            <div className='home-project-link'>
+                                                <p className='home-project-link-title'>
+                                                    Links
+                                                </p>
+                                                <a href='https://www.unwindsleep.com/'>
+                                                    Website
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </div>
+                            {/* DESIGN */}
+                            <div className='project-section-one'>
+                                <Row>
+                                    <Col lg='4'>
+                                        <div data-aos="fade-down" className='home-project-box'>
+                                            <p className='project-design'>
+                                                Design
+                                            </p>
+                                            <p className='project-design-info'>
+                                                The design choice was straight forward, make it appealing
+                                                to the eye and let the product do the talking. All thought 
+                                                out to get the customer in and out with their new mattress. 
+                                            </p>
+                                        </div>
+                                    </Col>

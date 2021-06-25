@@ -37,12 +37,12 @@ function Home() {
                                         <div className='home-intro-box'>
                                             <p className='home-intro-title'>
                                                 Hi I'm Gage Everett <br />
-                                                A Full Stack Developer <br />
+                                                A <span className='fls'>Full Stack Developer</span> <br />
                                                 based in El Paso, Tx. <br />
                                             </p>
                                             <p className='home-intro-title'>
                                                 Currently working at <br />
-                                                DGTL MLK designing <br />
+                                                <span className='fls'>DGTL MLK</span> designing <br />
                                                 unforgettable sites.
                                             </p>
                                         </div>
@@ -52,158 +52,73 @@ function Home() {
                         </div>   
                     </Fade>
                     {/* WORK */}
-                    <div className='home-inner-box'>
-                        <Fade>
-                            <div className='project-section-one'>
+                        <div className='home-work-wrapper'>
+                            <div className='home-work-container'>
                                 <Row>
-                                    <Col lg='8'>
-                                        <div data-aos="fade-down" className='home-project-box'>
-                                            <p className='home-project-title'>
-                                                Unwind Sleep
-                                            </p>
-                                            <p className='home-project-title-info'>
-                                                Unwind Sleep's website is a project I wont forget.
-                                                Exposure to new API's, intruiging new frameworks 
-                                                and plently of SEO and analytics for ad management.
-                                            </p>
+                                    <Col>
+                                        <div className='home-work-intro'>
+                                            <p>WORK</p>
                                         </div>
                                     </Col>
-                                    <Col lg='4'>
-                                        <div data-aos="fade-down" className='home-project-box'>
-                                            <div className='home-project-date'>
-                                                <p className='home-project-date-title'>
-                                                    Date
-                                                </p>
-                                                <p className='home-project-date-info'>
-                                                    Spring 2021
-                                                </p>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <div data-aos="fade-down" className='home-work-box'>
+                                            <Row>
+                                                <Col lg='6'>
+                                                    <div className='home-work-title'>
+                                                        <p>Unwind Sleep</p>
+                                                    </div>
+                                                </Col>
+                                                <Col lg='6'>
+                                                    <div className='home-work-info'>
+                                                       <p>
+                                                            Mattress website built from React utilizing Shopify's Storefront 
+                                                            API. Styled with CSS/SCSS and variant product retrieval with Node.
+                                                       </p>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                            <div className='home-work-date/framework-box'>
+                                                <Row className='home-work-row'>
+                                                    <Col lg='6' className='home-work-col'>
+                                                        <div className='home-work-date'>
+                                                            <p className='date-title'>Date // <span className='date-info'>March - April 2021</span></p>
+                                                        </div>
+                                                        <div className='home-work-framework'>
+                                                            <p>Frameworks // <span className='framework-info'>React, CSS/SCSS, Bootstrap, Shopify Storefront API, Node</span></p>
+                                                        </div>
+                                                    </Col>
+                                                   <Col lg='6'>
+                                                        
+                                                   </Col>
+                                                </Row>
                                             </div>
-                                            <div className='home-project-lang'>
-                                                <p className='home-project-lang-title'>
-                                                    Languages
-                                                </p>
-                                                <p className='home-project-lang-info'>
-                                                    React <br />
-                                                    SCSS/CSS <br />
-                                                    Bootstrap <br />
-                                                    Node <br />
-                                                    React <br />
-                                                </p>
-                                            </div>
-                                            <div className='home-project-link'>
-                                                <p className='home-project-link-title'>
-                                                    Links
-                                                </p>
-                                                <a href='https://www.unwindsleep.com/'>
-                                                    Website
-                                                </a>
+                                            <div className='home-work-design-box'>
+                                                <Row>
+                                                    <Col>
+                                                        <div className='home-work-design'>
+                                                            <p>Design</p>
+                                                        </div>
+                                                    </Col>
+                                                    <Col>
+                                                        <div className='design-info'>
+                                                            <p>
+                                                                The design choice was straight forward, make it appealing
+                                                                to the eye and let the product do the talking. All thought 
+                                                                out to get the customer in and out with their new mattress. 
+                                                            </p>
+                                                        </div>
+                                                    </Col>
+                                                </Row>
                                             </div>
                                         </div>
                                     </Col>
                                 </Row>
                             </div>
-                            <div className='project-section-img'>
-                                <img src={unwind} />
-                            </div>
-                            {/* DESIGN */}
-                            <div className='project-section-one'>
-                                <Row>
-                                    <Col lg='4'>
-                                        <div data-aos="fade-down" className='home-project-box'>
-                                            <p className='project-design'>
-                                                Design
-                                            </p>
-                                            <p className='project-design-info'>
-                                                The design choice was straight forward, make it appealing
-                                                to the eye and let the product do the talking. All thought 
-                                                out to get the customer in and out with their new mattress. 
-                                            </p>
-                                        </div>
-                                    </Col>
-                                    <Col lg='8'>
-                                    
-                                    </Col>
-                                </Row>
-                                <div className='project-design-img-box'>
-                                    <Row>
-                                        <Col lg='4'>
-                                            <div data-aos="fade-down" className='project-design-img-extra'>
-                                                <img src={unwindpillow} />
-                                            </div>
-                                        </Col>
-                                        <Col lg='4'>
-                                            <div data-aos="fade-down" className='home-project-box'>
-                                                <p className='project-design'>
-                                                    Design
-                                                </p>
-                                                <p className='project-design-info'>
-                                                    The design choice was straight forward, make it appealing
-                                                    to the eye and let the product do the talking. All thought 
-                                                    out to get the customer in and out with their new mattress. 
-                                                </p>
-                                            </div>
-                                        </Col>
-                                        <Col lg='2'>
-                                        
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col lg='4'>
-                                        
-                                        </Col>
-                                        <Col lg='4'>
-                                            <div data-aos="fade-down" className='project-design-img'>
-                                                <img src={unwindmattress} />
-                                            </div>
-                                        </Col>
-                                        <Col lg='4'>
-                                            <div data-aos="fade-down" className='home-project-box'>
-                                                <p className='project-design'>
-                                                    Design
-                                                </p>
-                                                <p className='project-design-info'>
-                                                    The design choice was straight forward, make it appealing
-                                                    to the eye and let the product do the talking. All thought 
-                                                    out to get the customer in and out with their new mattress. 
-                                                </p>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col lg='4'>
-                                        
-                                        </Col>
-                                        <Col lg='4'>
-                                        
-                                        </Col>
-                                        <Col lg='4'>
-                                            <div data-aos="fade-down" className='project-design-img-two'>
-                                                <img src={unwinddesk} />
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </div>
-                            <div className='project-section-one'>
-                                <Row>
-                                    <Col lg='8'>
-
-                                    </Col>
-                                    <Col lg='4'>
-                                        <div className='home-project-box'>
-                                            <p className='project-framework'>
-                                                Frameworks
-                                            </p>
-                                            <p className='project-framework-info'>
-                                                Using React with Node was a no brainer when dealing
-                                                variants of products.  
-                                            </p>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Fade>
-                        {/* ABOUT */} 
+                        </div>            
+                    {/* DESIGN */}
+                    {/* ABOUT */} 
                         <Fade>
                             <div className='home-about-wrapper'>
                                 <div className='home-about-container'>
@@ -227,10 +142,9 @@ function Home() {
                                 </div>
                             </div>
                         </Fade>
-                    </div>
                 </Container> 
         </>
     )
 }
 
-export default Home
+export default Home;
